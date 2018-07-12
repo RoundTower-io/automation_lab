@@ -1,10 +1,8 @@
-fruits = ['banana', 'apple',  'mango']
-for index in range(len(fruits)):
-    print ('Current fruit: {0}'.format(fruits[index]))
+for fruit in ['banana', 'apple', 'mango']:
+    print ('Current fruit: %s' % fruit)
 print ('Good bye!')
 
-for number in range(100):
-    if number % 10 == 0:
-        print('The number is: {0}'.format(number))
+for number in range(10):
+    print('The number is: %d' % number)
 else:
     print('No more numbers!')

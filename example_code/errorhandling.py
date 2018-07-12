@@ -5,9 +5,9 @@ while True:
         result = x / y
     except ZeroDivisionError:
         print('Division by zero!')
-    except: 
+    except:
         print('Unknown error!')
     else:
-        print('Result is {}'.format(result))
+        print("Result is %d" % result)
     finally:
         print('Executing finally clause')
