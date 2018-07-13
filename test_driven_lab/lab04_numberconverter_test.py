@@ -11,7 +11,7 @@ import unittest
 from lab04_numberconverter_code import *
 
 
-class testconvertlist(unittest.TestCase):
+class TestConvertList(unittest.TestCase):
 
 
 if __name__ == '__main__':

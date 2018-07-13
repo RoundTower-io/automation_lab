@@ -7,8 +7,8 @@
 # integer, discard it.
 #
 # You may use the following when creating the function:
-# * list() - converts a variable into a list
-# * str() - converts a variable into a string
+#  - list() - converts a variable into a list
+#  - str() - converts a variable into a string
 
 
 def convertlist(numberlist):
