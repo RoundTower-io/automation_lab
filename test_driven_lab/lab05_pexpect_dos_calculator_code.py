@@ -12,6 +12,7 @@
 import pexpect
 from pexpect import popen_spawn
 
+
 def dos_multiply(a, b):
     child = pexpect.popen_spawn.PopenSpawn('cmd', timeout=1)
     child.expect('D:.*>')

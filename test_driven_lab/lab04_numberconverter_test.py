@@ -11,7 +11,9 @@ import unittest
 from lab04_numberconverter_code import *
 
 
-class TestConvertList(unittest.TestCase):
+# NOTE: your test methods *have* to start with the word 'test'
+
+class TestConvertNumbersToNames(unittest.TestCase):
 
 
 if __name__ == '__main__':

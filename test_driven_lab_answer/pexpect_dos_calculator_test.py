@@ -2,18 +2,18 @@
 # Instructions: Write a test to verify your dos addition function works
 #
 import unittest
-from my_pexpect import *
+from pexpect_dos_calculator_code import *
 
 
 class TestDosMath(unittest.TestCase):
     def test_multiplication(self):
-        result = dos_multiply(3,3)
+        result = dos_multiply(3, 3)
         self.assertEqual(9, result)
 
-
     def test_addition(self):
-        result = dos_add(3,3)
+        result = dos_add(3, 3)
         self.assertEqual(6, result)
+
 
 if __name__ == '__main__':
     unittest.main()
